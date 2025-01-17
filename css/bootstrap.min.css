@@ -601,7 +601,7 @@ progress {
 }
 
 .img-fluid {
-    margin: 30%;
+    margin-top: 30%;
     max-width: 100%;
     height: auto
     /* align-items: center; */
