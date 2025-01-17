@@ -216,3 +216,17 @@
   background: var(--primary);
 }
 
+
+.profile-img {
+    width: 150px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
+    border-radius: 50%; /* Makes the image round */
+    border: 2px solid #ccc; /* Default border */
+    transition: transform 0.3s ease, border-color 0.3s ease; /* Smooth hover effect */
+    object-fit: cover; /* Ensures the image fits within the round shape */
+}
+
+.profile-img:hover {
+    transform: scale(1.1); /* Zooms the image slightly */
+    border-color: #007bff; /* Changes the border color on hover */
+}
